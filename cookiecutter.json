@@ -1,0 +1,10 @@
+{
+    "project_name": "Project Name",
+    "project_slug": "Project Slug",
+    "description": "Short description",
+    "author_name": "Your Name",
+    "email": "Your email",
+    "domain_name": "example.com",
+    "license": "Private",
+    "language_code": "pt-br"
+}

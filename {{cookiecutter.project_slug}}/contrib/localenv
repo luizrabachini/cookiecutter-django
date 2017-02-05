@@ -1,0 +1,28 @@
+# Base
+
+DJANGO_SETTINGS_MODULE=config.settings
+SECRET_KEY=changeme
+DEBUG=True
+
+
+# Storage
+
+#DATABASE_ENGINE=django.db.backends.mysql
+DATABASE_ENGINE=django.db.backends.sqlite3
+#MYSQL_DATABASE_NAME={{cookiecutter.project_slug}}
+MYSQL_DATABASE_NAME={{cookiecutter.project_slug}}.sqlite3
+MYSQL_USER=
+MYSQL_PASSWORD=
+MYSQL_HOST=127.0.0.1
+MYSQL_PORT=3306
+
+
+# Assets
+
+COMPRESS_ENABLED=False
+COMPRESS_OFFLINE=False
+
+
+# Internationalization
+
+TIME_ZONE=America/Sao_Paulo

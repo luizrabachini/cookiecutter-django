@@ -1,0 +1,8 @@
+make
+python3-dev
+libmysqlclient-dev
+python-setuptools
+python3-pip
+python-virtualenv
+libjpeg-dev
+libncurses-dev
