@@ -9,19 +9,19 @@ Features
 
 Python:
 
-- [Django 1.10](https://docs.djangoproject.com/en/1.10/)
-- [Django Widget Tweaks](https://github.com/kmike/django-widget-tweaks)
-- [Django Rosetta](http://django-rosetta.readthedocs.io/en/latest/)
-- [MySQL Client](https://docs.djangoproject.com/en/1.10/ref/databases/#mysql-db-api-drivers)
-- [Python Social Auth](http://python-social-auth-docs.readthedocs.io/en/latest/)
-- [Python Decouple](https://pypi.python.org/pypi/python-decouple)
-- Development tools like [py.test](http://doc.pytest.org/en/latest/), [mock](http://www.voidspace.org.uk/python/mock/) and [vcrpy](https://vcrpy.readthedocs.io/en/latest/) (installed only in dev mode)
+- [Django 1.10](https://docs.djangoproject.com/en/1.10/);
+- [Django Widget Tweaks](https://github.com/kmike/django-widget-tweaks);
+- [Django Rosetta](http://django-rosetta.readthedocs.io/en/latest/);
+- [MySQL Client](https://docs.djangoproject.com/en/1.10/ref/databases/#mysql-db-api-drivers);
+- [Python Social Auth](http://python-social-auth-docs.readthedocs.io/en/latest/);
+- [Python Decouple](https://pypi.python.org/pypi/python-decouple);
+- Development tools like [py.test](http://doc.pytest.org/en/latest/) and [vcrpy](https://vcrpy.readthedocs.io/en/latest/) (installed only in dev mode).
 
 Jasvascript:
 
-- [Bower](https://bower.io/)
-- [Bootstrap Sass](https://github.com/twbs/bootstrap-sass)
-- [JQuery](https://jquery.com/download/)
+- [Bower](https://bower.io/);
+- [Bootstrap Sass](https://github.com/twbs/bootstrap-sass);
+- [JQuery](https://jquery.com/download/).
 
 Configs:
 
