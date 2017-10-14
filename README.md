@@ -46,7 +46,7 @@ Install
 
     - For Linux:
 
-        `$ make install-linux  # requires sudo only to install `requirements.apt` packages`
+        `$ make install-linux  # requires sudo only to install requirements.apt packages`
 
     - For Mac:
 
