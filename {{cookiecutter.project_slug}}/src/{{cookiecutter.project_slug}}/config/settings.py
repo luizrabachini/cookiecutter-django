@@ -60,7 +60,9 @@ ROOT_URLCONF = 'config.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, '{{cookiecutter.project_slug}}', 'templates')],
+        'DIRS': [
+            os.path.join(BASE_DIR, '{{cookiecutter.project_slug}}', 'templates')
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -73,7 +75,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'config.wsgi.application'
+WSGI_APPLICATION = '{{cookiecutter.project_slug}}.config.wsgi.application'
 
 
 LOGGING = {
@@ -110,9 +112,9 @@ LOGGING = {
         'logfile': {
             'level': 'DEBUG',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': os.path.join(BASE_DIR, 'logs', '{{cookiecutter.project_slug}}.log'),
+            'filename': config('LOG_FILE_PATH', default='{{cookiecutter.project_slug}}.log'),
             'maxBytes': 50 * 1024 * 1024,  # 50 MB
-            'backupCount': 10,
+            'backupCount': 2,
             'formatter': 'verbose',
         }
     },

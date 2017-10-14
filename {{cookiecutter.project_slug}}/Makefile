@@ -1,4 +1,4 @@
-DJANGO_CMD = python3 {{cookiecutter.project_slug}}/manage.py
+DJANGO_CMD = python3 src/manage.py
 SETTINGS = config.settings
 
 RUN_MODE = development
