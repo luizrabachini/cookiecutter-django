@@ -1,4 +1,4 @@
-DJANGO_CMD = python3 src/manage.py
+DJANGO_CMD = python3 {{cookiecutter.project_slug}}/manage.py
 SETTINGS = config.settings
 
 RUN_MODE = development
@@ -39,6 +39,9 @@ requirements-brew:
 install-nvm:
 	@curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.0/install.sh | bash
 
+install-node:
+	$(nvm install stable)
+
 set-nvm:
 	$(nvm use stable)
 
@@ -76,7 +79,7 @@ makemessages:
 createsuperuser:
 	@$(DJANGO_CMD) createsuperuser
 
-install-frontend: install-nvm set-nvm install-bower requirements-js
+install-frontend: install-nvm install-node set-nvm install-bower requirements-js
 	@echo "[OK] Frontend dependencies installed"
 
 install-backend-linux: requirements-apt requirements-pip migrate

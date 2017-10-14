@@ -55,13 +55,17 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'config.urls'
+ROOT_URLCONF = '{{cookiecutter.project_slug}}.config.urls'
 
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, '{{cookiecutter.project_slug}}', 'templates')
+            os.path.join(
+                BASE_DIR,
+                '{{cookiecutter.project_slug}}',
+                'templates'
+            )
         ],
         'APP_DIRS': True,
         'OPTIONS': {
@@ -112,7 +116,10 @@ LOGGING = {
         'logfile': {
             'level': 'DEBUG',
             'class': 'logging.handlers.RotatingFileHandler',
-            'filename': config('LOG_FILE_PATH', default='{{cookiecutter.project_slug}}.log'),
+            'filename': config(
+                'LOG_FILE_PATH',
+                default='{{cookiecutter.project_slug}}.log'
+            ),
             'maxBytes': 50 * 1024 * 1024,  # 50 MB
             'backupCount': 2,
             'formatter': 'verbose',
