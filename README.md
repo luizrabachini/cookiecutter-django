@@ -44,13 +44,7 @@ Install
 
 - Run installer based in your OS and configure `.env` file when prompted:
 
-    - For Linux:
-
-        `$ make install-linux  # requires sudo only to install requirements.apt packages`
-
-    - For Mac:
-
-        `$ make install-mac`
+    `$ make install-linux  # requires sudo only to install requirements.apt packages`
 
 
 Usage

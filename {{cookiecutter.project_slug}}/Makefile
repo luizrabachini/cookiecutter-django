@@ -85,13 +85,7 @@ install-frontend: install-nvm install-node set-nvm install-bower requirements-js
 install-backend-linux: requirements-apt requirements-pip migrate
 	@echo "[OK] Backend dependencies installed"
 
-install-backend-mac: requirements-brew requirements-pip migrate
-	@echo "[OK] Backend dependencies installed"
-
 install-linux: conf-env install-backend-linux install-frontend createsuperuser
-	@echo "[OK] Installation completed"
-
-install-mac: conf-env  install-backend-mac install-frontend createsuperuser
 	@echo "[OK] Installation completed"
 
 
