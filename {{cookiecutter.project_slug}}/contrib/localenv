@@ -26,3 +26,8 @@ COMPRESS_OFFLINE=False
 # Internationalization
 
 TIME_ZONE=America/Sao_Paulo
+
+
+# Tests
+
+GECKODRIVER_BIN_PATH=

@@ -15,13 +15,17 @@ Python:
 - [MySQL Client](https://docs.djangoproject.com/en/1.10/ref/databases/#mysql-db-api-drivers);
 - [Python Social Auth](http://python-social-auth-docs.readthedocs.io/en/latest/);
 - [Python Decouple](https://pypi.python.org/pypi/python-decouple);
-- Development tools like [py.test](http://doc.pytest.org/en/latest/) and [vcrpy](https://vcrpy.readthedocs.io/en/latest/) (installed only in dev mode).
 
 Jasvascript:
 
 - [Bower](https://bower.io/);
 - [Bootstrap Sass](https://github.com/twbs/bootstrap-sass);
 - [JQuery](https://jquery.com/download/).
+
+Tests:
+- [py.test](http://doc.pytest.org/en/latest/);
+- [vcrpy](https://vcrpy.readthedocs.io/en/latest/);
+- [Selenium](http://selenium-python.readthedocs.io/).
 
 Configs:
 

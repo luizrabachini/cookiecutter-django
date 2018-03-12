@@ -82,10 +82,10 @@ createsuperuser:
 install-frontend: install-nvm install-node set-nvm install-bower requirements-js
 	@echo "[OK] Frontend dependencies installed"
 
-install-backend-linux: requirements-apt requirements-pip migrate
+install-backend: requirements-apt requirements-pip migrate
 	@echo "[OK] Backend dependencies installed"
 
-install-linux: conf-env install-backend-linux install-frontend createsuperuser
+install: conf-env install-backend install-frontend createsuperuser
 	@echo "[OK] Installation completed"
 
 
