@@ -40,7 +40,7 @@ Install
 
 - Create a virtualenv (use [virtualenvwrapper](https://virtualenvwrapper.readthedocs.org/en/latest/)):
 
-    `$ mkvirtualenv project_slug -p /usr/bin/python3.5`
+    `$ mkvirtualenv project_slug -p /usr/bin/python3`
 
 - Run installer based in your OS and configure `.env` file when prompted:
 
