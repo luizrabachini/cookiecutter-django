@@ -14,7 +14,7 @@ Python:
 - [Django Rosetta](http://django-rosetta.readthedocs.io/en/latest/);
 - [MySQL Client](https://docs.djangoproject.com/en/1.10/ref/databases/#mysql-db-api-drivers);
 - [Python Social Auth](http://python-social-auth-docs.readthedocs.io/en/latest/);
-- [Python Decouple](https://pypi.python.org/pypi/python-decouple);
+- [Python Decouple](https://pypi.python.org/pypi/python-decouple).
 
 Jasvascript:
 
@@ -29,9 +29,9 @@ Tests:
 
 Configs:
 
-- [EditorConfig](http://editorconfig.org/)
-- [PEP8](https://www.python.org/dev/peps/pep-0008/)
-- [Travis](https://docs.travis-ci.com/)
+- [EditorConfig](http://editorconfig.org/);
+- [PEP8](https://www.python.org/dev/peps/pep-0008/);
+- [Travis](https://docs.travis-ci.com/).
 
 
 Install
