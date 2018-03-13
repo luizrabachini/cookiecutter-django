@@ -46,9 +46,9 @@ Install
 
     `$ mkvirtualenv project_slug -p /usr/bin/python3`
 
-- Run installer based in your OS and configure `.env` file when prompted:
+- Inside of project folder, run installer and configure `.env` file when prompted:
 
-    `$ make install-linux  # requires sudo only to install requirements.apt packages`
+    `$ make install  # requires sudo only to install requirements.apt packages`
 
 
 Usage
